@@ -1,0 +1,66 @@
+
+
+<Controller>:
+    but1: but1
+    but2: but2
+    but3: but3
+    but4: but4
+    but5: but5
+    but6: but6
+    but7: but7
+    but8: but8
+    but9: but9
+	orientation: "vertical"
+	BoxLayout:
+		Button:
+			size_hint_x: 1
+			id: but1
+			on_release: root.touched_down("t1", 0)
+
+		Button:
+		    id: but2
+			size_hint_x: 1
+			on_release: root.touched_down("t2", 1)
+			
+		Button:
+		    id: but3
+			size_hint_x: 1
+			on_release: root.touched_down("t3", 2)
+			
+	BoxLayout:
+	    font_size: 100
+		Button:
+		    id: but4
+			size_hint_x: 1
+			on_release: root.touched_down("m1", 3)
+			
+		Button:
+		    id: but5
+			size_hint_x: 1
+			on_release: root.touched_down("m2", 4)
+			
+		    
+		Button:
+		    id: but6
+			size_hint_x: 1
+			on_release: root.touched_down("m3", 5)
+			
+
+
+	BoxLayout:
+		Button:
+		    id: but7
+			size_hint_x: 1
+			on_release: root.touched_down("b1", 6)
+			
+		Button:
+		    id: but8
+			size_hint_x: 1
+			on_release: root.touched_down("b2", 7)
+			
+		Button:
+		    id: but9
+			size_hint_x: 1
+			on_release: root.touched_down("b3", 8)
+			
+
